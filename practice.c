@@ -3,7 +3,7 @@
 
 int main(){
     float r, area, sarea, volume, pi = 3.14;
-    printf("enter your radius : \n");
+    printf("enter your radius : ");
     scanf("%f", &r);
 
     sarea = 4 * pi * r * r;
@@ -12,9 +12,9 @@ int main(){
 
     volume = 4/3 * pi * r * r *r ;
 
-    printf("area of circle %f \n", area);
-    printf("surface area of sphere %f \n", sarea);
-    printf("volume of sphere %f \n", volume);
+    printf("area of circle %.2f \n", area);
+    printf("surface area of sphere %.2f \n", sarea);
+    printf("volume of sphere %.2f \n", volume);
 
 
 
