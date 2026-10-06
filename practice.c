@@ -6,11 +6,11 @@ int main(){
     printf("enter your radius : ");
     scanf("%f", &r);
 
-    sarea = 4 * pi * r * r;
+    sarea = 4 * pi * pow(r,2);
 
-    area = pi * r * r;
+    area = pi * pow(r, 2);
 
-    volume = 4/3 * pi * r * r *r ;
+    volume = (4/3) * pi * pow(r, 3);
 
     printf("area of circle %.2f \n", area);
     printf("surface area of sphere %.2f \n", sarea);
